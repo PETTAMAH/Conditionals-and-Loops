@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals and Loops", "Conditionals and Loops.csproj", "{0D12F203-CB33-4013-BEA4-CE7C8114E61A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D12F203-CB33-4013-BEA4-CE7C8114E61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D12F203-CB33-4013-BEA4-CE7C8114E61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D12F203-CB33-4013-BEA4-CE7C8114E61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D12F203-CB33-4013-BEA4-CE7C8114E61A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89D3BD38-C3F8-4473-9E5D-DE59F255FF4C}
+	EndGlobalSection
+EndGlobal

@@ -10,7 +10,25 @@ namespace Conditionals_and_Loops
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ez az utolsó próba");
+            //The if statement\\  
+            /*
+            int x = 7;
+            int y = 8;
+
+            
+             if (x > y) 
+            {
+                Console.WriteLine("Az x nagyobb, mint az y");
+            }
+            else
+            {
+                Console.WriteLine("Az y nagyobb, mint az x");
+            }
+            */
+
+
+            Console.ReadKey();
+
         }
     }
 }

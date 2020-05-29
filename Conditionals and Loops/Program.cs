@@ -26,7 +26,7 @@ namespace Conditionals_and_Loops
             }
             */
 
-            Console.WriteLine("Ho");
+
             Console.ReadKey();
 
         }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -174,9 +175,92 @@ namespace Conditionals_and_Loops
             }
             */
 
-            Console.WriteLine("Ajé én bijlak");
-            Console.WriteLine("Boji h ejek");
+            //The default Case\\
+            /*
+            int age = 88;
+            switch (age)
+            {
+                case 15:
+                    Console.WriteLine("Too young");
+                    break;
+                case 42:
+                    Console.WriteLine("Adult");
+                    break;
+                case 70:
+                    Console.WriteLine("Senior");
+                    break;
+                default:
+                    Console.WriteLine("This is the cucumber egg");
+                    break; 
+            }
+            */
+
+            //while\\
+            /*
+            int num = 1;
+            while (num < 6)
+            {
+                Console.WriteLine(num);
+                num++;
+            }
+            */
+
+            //Fill in the blanks to\\
+
+            /*
+            int x = 7;
+            int num = 0;
+            while (num < 8)                                         //Itt a X az, hogy mit írjon ki, ami az X-el egyenlő
+                                                                    //A num pedig az, hogy ami (jelen esetben) 0 és 8 között van (8x) kíírja X-et
+            {
+                Console.WriteLine(x);
+                num++;
+            }
+            */
+
+            //The while Loop 1.\\
+            /*
+            int num = 1;
+            while (num<=7)                                         //Itt az, hogy a num-nak megadunk egy értéket (1), ez ketteségvel ugrál fel jelen esetben 7-ig
+            {
+                Console.WriteLine(num);
+                num += 2;
+            }
+            */
+
+            //Fill in the blanks to\\
+            /*
+            int num = 0;
+            while (num < 100)
+            {
+                Console.WriteLine(num);
+                num += 2;
+            }
+            */
+            //The while Loop 2.\\
+
+            /*
+            int num = 0;
+            while (num++ < 10)                                      //Num++ és ++num között van különbség
+            Console.WriteLine(num);
+            */
+
+            //How many times will the following loop execute?\\???
+
+            /*
+            int x = 1;
+            while(x++<5)
+            {
+                if (x % 2 == 0) 
+                x += 2;
+                Console.WriteLine(x);
+            }
+            */
+
             Console.ReadKey();
+            
+
+
         }
     }
 }

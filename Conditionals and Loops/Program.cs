@@ -16,7 +16,7 @@ namespace Conditionals_and_Loops
             int x = 7;
             int y = 8;
 
-            
+
              if (x > y) 
             {
                 Console.WriteLine("Az x nagyobb, mint az y");
@@ -257,10 +257,68 @@ namespace Conditionals_and_Loops
             }
             */
 
-            Console.ReadKey();
-            
+            //The for Loop 1.\\
 
+            /*
+            for (int x= 10; x<15; x++)
+            {                                                      //Egészen addig fut amég nem lesz hamis a feltétel
+                Console.WriteLine("Value of x: {0}", x);
+            }
 
-        }
-    }
+            */
+
+            //Drag and drop from\\
+            /*
+            for (int x =5;x<10;x++)
+            {
+                Console.WriteLine("The values are: {0}", x);
+            }
+            */
+
+            //The for Loop 2.\\
+            /*
+            for (int x= 2;x<10; x+=2)                                //Mindig nagyobb lesz 2-vel, amég el nem éri a 10-et                
+            {
+                Console.WriteLine("2-vel mindig több lesz: {0}", x);
+            }
+            */
+
+            //The for Loop 3.\\
+            /*
+            for(int x = 10; x>0;x-=2)
+            {
+                Console.WriteLine("10-től mindig 2-vel lesz kisebb: {0}", x);
+            }
+            */
+
+            //Fill in the blanks to\\
+            /*
+            for (int x=0;x<100;x+=1)                                        //Ez minden számot kiír 100-ig
+                {
+                Console.WriteLine("Ezek 0-100-ig a számok: {0}: ",x);
+                }
+            */
+
+            //The for Loop 4.\\
+            /*
+            int x = 10;                                              //Ez ugyanaz, mint az előző, csak másjóhogy leírva
+            for(;x>0; x-=3)
+            {
+                Console.WriteLine(x);
+            }
+            */
+
+            //The for Loop 5.\\
+            /*
+            int x = 10;                                             //Ez ugyanaz, mint az előzőek, csak másjóhogy leírva
+            for(;x>0;)
+            {
+                Console.WriteLine(x);
+                x -= 3;
+            }
+            */
+
+Console.ReadKey();
+}
+}
 }

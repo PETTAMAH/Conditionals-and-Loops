@@ -318,7 +318,45 @@ namespace Conditionals_and_Loops
             }
             */
 
-Console.ReadKey();
+            //do-while\\
+            /*
+            int a = 0;
+            do
+            {
+                Console.WriteLine(a);
+                a++;
+            } while (a < 5);
+            */
+
+            //Fill in the blanks to\\
+            /*
+            int x = 0;
+            do
+            {
+                Console.WriteLine(x);
+                x += 2;
+            } while (x < 10);
+            */
+
+            //do-while vs. while\\
+            /*
+            int x = 42;
+            do                                          //Ez ha a while hamis, akkor is lefut, és 42-t ad eredményül
+            {
+                Console.WriteLine(x);
+                x++;
+            } while (x < 10);
+            */
+
+            int a = 15;                                //EZ KÉRDÉSES??????????
+            do
+            {
+                a += 3;
+            } while (a < 4);
+            Console.WriteLine(a);
+
+
+            Console.ReadKey();
 }
 }
 }

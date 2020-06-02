@@ -348,12 +348,76 @@ namespace Conditionals_and_Loops
             } while (x < 10);
             */
 
+            //What is the output of this code?\\
+            /*
             int a = 15;                                //EZ KÉRDÉSES??????????
             do
             {
                 a += 3;
             } while (a < 4);
             Console.WriteLine(a);
+            */
+
+            //Break\\
+            /*
+            int num = 5;                                //Ez az, hogy honnan induljon        
+            while (num<=40)                              //Ez az, hogy alapból meddig menjen
+            {
+                if (num == 15)                          //Ez az ami megállítja 30-nál
+                    break;
+
+                Console.WriteLine(num);
+                num++;
+            }
+            */
+
+            //What is the largest number that \\
+            /*
+            for (int x = 1; x < 8; x++)
+            {
+                if (x > 6)                              //Ha x nagyobb lenne, mint 6, akkor álljon meg
+                    break;
+                Console.WriteLine(x);
+            }
+            */
+
+            //Continue\\
+            /*
+            for(int i=0; i < 10; i++)                  //A countinue kiagyja az if-nél a 4-et
+            {                                          //Miért a countinue ez?
+                if (i == 4)
+                    continue;
+                Console.WriteLine(i);
+            }
+            */
+
+            //Fill in the blanks to print only even numbers.\\
+            /*
+            for (int x=0; x<99; x++)
+            {
+                if (x % 2 != 0)
+                    continue;
+
+                Console.WriteLine(x);
+            }
+            */
+
+            //Logical Operators\\
+            /*
+            int age = 5;
+            double money = 540;
+            if(age>18 && money > 100)
+            {
+                Console.WriteLine("Welcome in the server");
+            }
+            else
+            {
+                                                                                                    //Ez csak plusz, ha nem futna le
+            }
+            {
+                Console.WriteLine("You haven't got enough privilege to enter to the server");
+            }
+            */
 
 
             Console.ReadKey();

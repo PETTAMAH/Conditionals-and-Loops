@@ -419,6 +419,67 @@ namespace Conditionals_and_Loops
             }
             */
 
+            //AND 1.\\ 
+            /*
+            int age = 42;
+            int grade = 75;
+            if (age > 16 && age < 80 && grade > 50)
+             Console.WriteLine("Hi, welcome");
+             */
+
+
+            //AND 2.\\ - ez az előző fejlesztve
+            /*
+            int age = 4;
+            int grade = 75;
+            if (age > 16 && age < 80 && grade > 50)
+            {
+                Console.WriteLine("Hi, welcome");
+            }
+            else
+            {
+                Console.WriteLine("Lose");
+            }
+            */
+
+            //The OR Operator\\
+            /*
+            int age = 18;                                               //Itt az "age" nem érvényesül, mégis true lesz, hiszen az or az --vagy - vagy --
+            int score = 85;
+            if(age > 20 || score > 50)
+            {
+                Console.WriteLine("You're welcome");
+            }
+            */
+
+            //What is the output of this code ?\\   --> Jamboard
+            /*
+            int x = 5;
+            int y = 12;
+            if(x>10 || y/x > 1)
+                Console.WriteLine(y-x);
+            else
+                Console.WriteLine(y);
+            */
+
+            //Logical NOT\\
+            /*
+            int age = 8;
+            if (!(age >= 16))                                               //Hiszen ez normál esetben, ekkor történne 16<=age
+            {
+                Console.WriteLine("You're so young");
+            }
+            */
+
+            ?????
+            int a = 16;
+            int b = 8;
+            int c = 10;
+            if (c<a&&b>c)
+                Console.WriteLine(" a jó");
+            else
+                Console.WriteLine(" b a jó");
+
 
             Console.ReadKey();
 }

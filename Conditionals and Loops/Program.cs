@@ -471,14 +471,26 @@ namespace Conditionals_and_Loops
             }
             */
 
-            ?????
-            int a = 16;
-            int b = 8;
-            int c = 10;
-            if (c<a&&b>c)
-                Console.WriteLine(" a jó");
+            //?? A is true B is false??\\ Logical operators 
+
+            //The ? : Operator 1.\\
+            /*
+            int age = 42;
+            string a;
+            if (age > 18)
+                a = "Welcome";
             else
-                Console.WriteLine(" b a jó");
+                a = "sorry";
+            Console.WriteLine(a );
+            */
+
+            //The ? : Operator 2.(elegánsabb)\\
+            /*
+            int age = 42;
+            string a;
+            a = (age >= 18) ? "Welcome" : "Sorry";
+            Console.WriteLine(a);
+            */
 
 
             Console.ReadKey();

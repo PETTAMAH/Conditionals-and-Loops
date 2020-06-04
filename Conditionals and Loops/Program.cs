@@ -492,7 +492,52 @@ namespace Conditionals_and_Loops
             Console.WriteLine(a);
             */
 
+            //What is the value of x after this code?\\
+            /*
+            int x = 5;
+            int y = 3;
+            x = (x > y) ? y : x;                            //Ez nem osztás, hanem mint az elsőben ha igaz akkor "Y", hanem akkor "X"
+            Console.WriteLine(x);
+            */
 
+            //Basic Calculator\\
+            /*
+            do
+            {
+                Console.WriteLine("x=");
+                int x = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("y=");
+                int y = Convert.ToInt32(Console.ReadLine());
+
+                int sum = x + y;
+                Console.WriteLine("The result is: {0}", sum);
+            }
+            while (true);
+            */
+
+            //How many times would this loop run?\\
+            /*
+            do { }
+            while (false);
+            */
+            do
+            {                 Console.Write("x = ");
+                string a = Console.ReadLine();
+                if (a == "exit")
+                    break;
+
+                int x = Convert.ToInt32(a);
+
+                Console.Write("y=");
+                int y = Convert.ToInt32(Console.ReadLine());
+
+                int sum = x + y;
+                Console.WriteLine(" The result is: {0}", sum);
+            }
+            while (true);
+            
+            
             Console.ReadKey();
 }
 }

@@ -500,29 +500,34 @@ namespace Conditionals_and_Loops
             Console.WriteLine(x);
             */
 
-            //Basic Calculator\\
+            //Basic Calculator 1.\\
             /*
-            do
-            {
-                Console.WriteLine("x=");
-                int x = Convert.ToInt32(Console.ReadLine());
+             do
+             {
+                 Console.WriteLine("x=");
+                 int x = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("y=");
-                int y = Convert.ToInt32(Console.ReadLine());
+                 Console.WriteLine("y=");
+                 int y = Convert.ToInt32(Console.ReadLine());
 
-                int sum = x + y;
-                Console.WriteLine("The result is: {0}", sum);
-            }
-            while (true);
-            */
+                 int sum = x + y;
+                 Console.WriteLine("The result is: {0}", sum);
+             }
+             while (true);
+             */
 
             //How many times would this loop run?\\
             /*
             do { }
             while (false);
             */
+
+            //Basic calculator 2.\\
+
+            /*
             do
-            {                 Console.Write("x = ");
+            {                 
+                Console.Write("x = ");
                 string a = Console.ReadLine();
                 if (a == "exit")
                     break;
@@ -536,9 +541,51 @@ namespace Conditionals_and_Loops
                 Console.WriteLine(" The result is: {0}", sum);
             }
             while (true);
-            
-            
+            */
+
+            //Fill in the blanks to print the value of x five times.\\
+
+            /*
+            int x = 42;
+            int num = 8;
+            while (num < 15)
+            {
+                Console.WriteLine(x);
+                num++;
+            }
+            if (num > 15)
+            {
+                Console.WriteLine("Rosszat írtál be");
+                    
+            }    
+            */
+
+            //Drag and drop from the options below to create a valid finite for loop.\\
+            /*
+            for (int x =0; x <= 10; x++)
+            {
+                Console.WriteLine(x);
+            }
+            */
+
+            //??Fill in the blanks to calculate the sum of all whole numbers from 1 to 100.??\\
+
+            /*
+            int sum = 0;                                       
+            for (int x = 1; x < 100; x++) { 
+            sum += x;
+            }
+            Console.WriteLine(sum);
+            */
+
+            //What is the value of x after this code?\\
+            /*
+            int x = 4; int y = 9;
+            x = (y % x != 0) ? y / x : y;           //Ez nehéz, az egész az, hogy y/x=2 ,de ugye első maradékja 1 -->(tehát) nem egyenlő 0
+            Console.WriteLine(x);                   //Majd y-nal osztjuk, a kettőspont közül az elsőt tehát a 9-el a 4-et, ennek az egész számokban a hányadosa 2    
+            */
+
             Console.ReadKey();
-}
+        }
 }
 }
